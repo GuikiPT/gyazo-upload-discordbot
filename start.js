@@ -57,7 +57,7 @@ async function ConfigureBetterLoggingSystem() {
 }
 
 async function CheckEnvironmentVariables() {
-    const requiredEnvVars = ['DiscordToken', 'qT6RVZ_ciim-FCtGUGc_6AkCU797CQRuKqKx-YAcHL4'];
+    const requiredEnvVars = ['DiscordToken', 'GyazoToken'];
     requiredEnvVars.forEach((varName) => {
         if (!process.env[varName]) {
             console.error(colors.red(`Environment variable ${varName} is missing.`));

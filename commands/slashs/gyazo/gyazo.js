@@ -50,8 +50,8 @@ module.exports = {
 
 			const embed = new EmbedBuilder()
 				.setColor('Blue')
-				.setTitle('🖼️ | Image Uploaded to Gyazo!')
-				.setDescription(`[Click here to view the image](${imageUrl})`)
+				.setTitle('🖼️ | Gyazo URL')
+				.setDescription(`${imageUrl}`)
 				.setImage(imageUrl)
 				.setTimestamp();
 
